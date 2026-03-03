@@ -12,7 +12,7 @@ app.post('/ct-extensions/hello', (req, res) => {
 
   // Minimal valid response for a CT HTTP Extension
   res.status(200).json({
-    action: "Update"
+    actions: []
   });
 });
 
